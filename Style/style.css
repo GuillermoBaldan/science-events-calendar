@@ -80,3 +80,32 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.orange {
+    background-color: orange;
+}
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.navy {
+    background-color: navy;
+    color: yellow;
+}
+
+.brown {
+    background-color: brown;
+    color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.pink {
+    background-color: pink;
+}

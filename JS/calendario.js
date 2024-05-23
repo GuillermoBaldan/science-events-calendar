@@ -77,9 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const eventElement = document.createElement('div');
                     eventElement.classList.add('event');
                     eventElement.textContent = `${event.title} (${event.year})`;
-                    if (event.descubrimiento) {
-                        eventElement.classList.add('orange'); // Agregar la clase 'orange' para eventos de descubrimiento
-                    }
+                    applyEventColor(eventElement, event.type);
                     eventElement.addEventListener('click', () => {
                         showModal(event);
                     });
@@ -88,6 +86,31 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             calendarElement.appendChild(dayElement);
+        }
+    }
+
+    function applyEventColor(element, eventType) {
+        switch (eventType) {
+            case 'nacimiento':
+                element.classList.add('orange');
+                break;
+            case 'descubrimiento':
+                element.classList.add('red');
+                break;
+            case 'exploración':
+                element.classList.add('navy');
+                break;
+            case 'teoría':
+                element.classList.add('brown');
+                break;
+            case 'fundación':
+                element.classList.add('purple');
+                break;
+            case 'dia mundial':
+                element.classList.add('pink');
+                break;
+            default:
+                break;
         }
     }
 
