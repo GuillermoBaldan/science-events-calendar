@@ -54,12 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
             dayElement.textContent = i;
 
             // Verificar si hay eventos para este día
-            const event = events.find(event => event.day === i && event.month === currentMonth + 1);
-            if (event) {
-                const eventElement = document.createElement('div');
-                eventElement.classList.add('event');
-                eventElement.textContent = `${event.title} (${event.year})`;
-                dayElement.appendChild(eventElement);
+            const dayEvents = events.filter(event => event.day === i && event.month === currentMonth + 1);
+            if (dayEvents.length > 0) {
+                dayEvents.forEach(event => {
+                    const eventElement = document.createElement('div');
+                    eventElement.classList.add('event');
+                    eventElement.textContent = `${event.title} (${event.year})`;
+                    dayElement.appendChild(eventElement);
+                });
             }
 
             calendarElement.appendChild(dayElement);
