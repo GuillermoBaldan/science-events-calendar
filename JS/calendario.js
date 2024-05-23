@@ -77,6 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     const eventElement = document.createElement('div');
                     eventElement.classList.add('event');
                     eventElement.textContent = `${event.title} (${event.year})`;
+                    if (event.descubrimiento) {
+                        eventElement.classList.add('orange'); // Agregar la clase 'orange' para eventos de descubrimiento
+                    }
                     eventElement.addEventListener('click', () => {
                         showModal(event);
                     });
