@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
     {
         "day": 3,
@@ -6,7 +5,7 @@
         "title": "Nacimiento de Isaac Newton",
         "year": 1643,
         "description": "Isaac Newton, uno de los físicos y matemáticos más importantes de todos los tiempos, nació el 3 de enero de 1643.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sir_Isaac_Newton_%281643-1727%29.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/1024px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg"
     },
     {
         "day": 12,
@@ -14,7 +13,7 @@
         "title": "Nacimiento de Charles Darwin",
         "year": 1809,
         "description": "Charles Darwin, el naturalista que desarrolló la teoría de la evolución por selección natural, nació el 12 de febrero de 1809.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Charles_Darwin_by_G._Richmond.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Charles_Darwin_portrait.jpg"
     },
     {
         "day": 14,
@@ -22,7 +21,7 @@
         "title": "Nacimiento de Albert Einstein",
         "year": 1879,
         "description": "Albert Einstein, conocido por su teoría de la relatividad, nació el 14 de marzo de 1879.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/1024px-Albert_Einstein_Head.jpg"
     },
     {
         "day": 25,
@@ -30,7 +29,7 @@
         "title": "Descubrimiento del ADN",
         "year": 1953,
         "description": "El 25 de abril de 1953, James Watson y Francis Crick publicaron su modelo de la estructura del ADN.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/56/Double_helix.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Maclyn_McCarty_with_Francis_Crick_and_James_D_Watson_-_10.1371_journal.pbio.0030341.g001-O.jpg/1920px-Maclyn_McCarty_with_Francis_Crick_and_James_D_Watson_-_10.1371_journal.pbio.0030341.g001-O.jpg"
     },
     {
         "day": 5,
@@ -38,7 +37,7 @@
         "title": "Nacimiento de Michael Faraday",
         "year": 1791,
         "description": "Michael Faraday, famoso por sus descubrimientos en electromagnetismo y electroquímica, nació el 5 de mayo de 1791.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/M_Faraday_Th_Phillips_oil_1842.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/1024px-M_Faraday_Th_Phillips_oil_1842.jpg"
     },
     {
         "day": 1,
@@ -62,7 +61,7 @@
         "title": "Nacimiento de Ernest Lawrence",
         "year": 1901,
         "description": "Ernest Lawrence, inventor del ciclotrón, nació el 8 de agosto de 1901.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ernest_Lawrence.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/HD.1A.007_%2812662186395%29.jpg/1024px-HD.1A.007_%2812662186395%29.jpg"
     },
     {
         "day": 28,
@@ -70,7 +69,7 @@
         "title": "Descubrimiento de los rayos X",
         "year": 1895,
         "description": "El 28 de septiembre de 1895, Wilhelm Röntgen descubrió los rayos X.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/00/Wilhelm_Conrad_Roentgen.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fb/X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg"
     },
     {
         "day": 23,
@@ -78,7 +77,7 @@
         "title": "Día de Mole",
         "year": 1811,
         "description": "El 23 de octubre se celebra el Día de Mole en honor a Avogadro y su número, 6.022 × 10^23.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/38/Avogadro2.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Avogadro_Amedeo.jpg"
     },
     {
         "day": 21,
@@ -86,7 +85,7 @@
         "title": "Nacimiento de Henrietta Leavitt",
         "year": 1868,
         "description": "Henrietta Leavitt, quien descubrió la relación periodo-luminosidad de las cefeidas, nació el 21 de noviembre de 1868.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Leavitt_aavso.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Henrietta_Swan_Leavitt.jpg/1024px-Henrietta_Swan_Leavitt.jpg"
     },
     {
         "day": 17,
@@ -94,7 +93,7 @@
         "title": "Primer vuelo de los hermanos Wright",
         "year": 1903,
         "description": "El 17 de diciembre de 1903, los hermanos Wright realizaron el primer vuelo controlado y sostenido de una aeronave más pesada que el aire.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/05/Wrightflyer.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/95/Wrightflyer.jpg"
     },
     {
         "day": 8,
@@ -110,7 +109,7 @@
         "year": 1867,
         "title": "Nacimiento de Marie Curie",
         "description": "Marie Curie, la primera mujer en ganar un Premio Nobel, nació el 7 de noviembre de 1867.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marie_Curie_c1920.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/51/Marie_Curie_%281900%29.jpg"
     },
     {
         "day": 15,
@@ -118,7 +117,7 @@
         "year": 1564,
         "title": "Nacimiento de Galileo Galilei",
         "description": "Galileo Galilei, conocido como el padre de la astronomía moderna, nació el 15 de febrero de 1564.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/18/Galileo_Galilei_2.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/1024px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg"
     },
     {
         "day": 19,
@@ -126,7 +125,7 @@
         "year": 1473,
         "title": "Nacimiento de Nicolás Copérnico",
         "description": "Nicolás Copérnico, quien formuló el modelo heliocéntrico del universo, nació el 19 de febrero de 1473.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nikolaus_Kopernikus.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nikolaus_Kopernikus.jpg"
     },
     {
         "day": 27,
@@ -134,7 +133,7 @@
         "year": 1822,
         "title": "Nacimiento de Louis Pasteur",
         "description": "Louis Pasteur, conocido por sus descubrimientos en microbiología y química, nació el 27 de diciembre de 1822.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/57/Louis_Pasteur_by_Pierre_Lamy_Petit.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/42/Louis_Pasteur.jpg"
     },
     {
         "day": 6,
@@ -142,7 +141,7 @@
         "year": 1881,
         "title": "Nacimiento de Alexander Fleming",
         "description": "Alexander Fleming, quien descubrió la penicilina, nació el 6 de agosto de 1881.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Alexander_Fleming_3.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/1024px-Synthetic_Production_of_Penicillin_TR1468.jpg"
     },
     {
         "day": 10,
@@ -158,7 +157,7 @@
         "year": 1928,
         "title": "Descubrimiento de la Penicilina",
         "description": "Alexander Fleming descubrió la penicilina, dando lugar al desarrollo de los antibióticos y transformando la medicina moderna.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Penicillin_core.svg"
+        "imagen": "https://s3.abcstatics.com/Media/201503/11/penicilina-Fleming-antibiotico--644x362.jpg"
     },
     {
         "day": 26,
@@ -166,7 +165,7 @@
         "year": 1905,
         "title": "Teoría de la Relatividad",
         "description": "Albert Einstein cambió nuestra comprensión del tiempo, el espacio y la gravedad con su Teoría de la Relatividad.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cassini-science-br.jpg"
     },
     {
         "day": 26,
@@ -174,7 +173,7 @@
         "year": 1898,
         "title": "Descubrimiento de la Radiactividad",
         "description": "Marie Curie descubrió la radiactividad, lo que llevó al desarrollo de la radioterapia para el tratamiento del cáncer.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marie_Curie_c1920.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/1920px-Pierre_and_Marie_Curie.jpg"
     },
     {
         "day": 24,
@@ -182,7 +181,7 @@
         "year": 1859,
         "title": "Teoría de la Evolución",
         "description": "Charles Darwin propuso la teoría de la evolución por selección natural, cambiando nuestra comprensión de la vida en la Tierra.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Charles_Darwin_by_G._Richmond.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Origin_of_Species_title_page.jpg/800px-Origin_of_Species_title_page.jpg"
     },
     {
         "day": 1,
@@ -190,7 +189,7 @@
         "year": 800000,
         "title": "Descubrimiento del Fuego",
         "description": "El descubrimiento del fuego por nuestros antepasados fue un hito crucial en la evolución humana.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Fire_Breather.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bonfire_in_Kladow_17.04.2011_20-41-54.JPG/1280px-Bonfire_in_Kladow_17.04.2011_20-41-54.JPG"
     },
     {
         "day": 16,
@@ -198,7 +197,7 @@
         "year": 1846,
         "title": "Invención de la Anestesia",
         "description": "La invención de la anestesia en el siglo XIX permitió el desarrollo de la cirugía moderna.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/67/First_use_of_ether.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Anesthesia_recovery.jpg/250px-Anesthesia_recovery.jpg"
     },
     {
         "day": 4,
@@ -206,7 +205,7 @@
         "year": 2012,
         "title": "Descubrimiento del Bosón de Higgs",
         "description": "La detección del bosón de Higgs en 2012 confirmó la existencia de este componente fundamental del universo.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Atlas3D.gif"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1c/CMS_Higgs-event.jpg"
     },
     {
         "day": 13,
@@ -214,7 +213,7 @@
         "year": 1788,
         "title": "Fundación de la Sociedad Linneana de Londres",
         "description": "La Sociedad Linneana de Londres, dedicada a la historia natural y la taxonomía, fue fundada el 13 de marzo de 1788.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Linnean_Society_of_London.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Linnean_and_Royal_Astronomical_societies-2258410612.jpg"
     },
     {
         "day": 12,
@@ -222,45 +221,6 @@
         "year": 1847,
         "title": "Nacimiento de Florence Nightingale",
         "description": "Florence Nightingale, la fundadora de la enfermería moderna, nació el 12 de mayo de 1820.",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/69/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/1024px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg"
     }
-=======
-[    {"day": 3, "month": 1, "title": "Nacimiento de Isaac Newton", "year": 1643, "description": "Isaac Newton, uno de los físicos y matemáticos más importantes de todos los tiempos, nació el 3 de enero de 1643."},
-    {"day": 12, "month": 2, "title": "Nacimiento de Charles Darwin", "year": 1809, "description": "Charles Darwin, el naturalista que desarrolló la teoría de la evolución por selección natural, nació el 12 de febrero de 1809."},
-    {"day": 14, "month": 3, "title": "Nacimiento de Albert Einstein", "year": 1879, "description": "Albert Einstein, conocido por su teoría de la relatividad, nació el 14 de marzo de 1879."},
-    {"day": 25, "month": 4, "title": "Descubrimiento del ADN", "year": 1953, "description": "El 25 de abril de 1953, James Watson y Francis Crick publicaron su modelo de la estructura del ADN."},
-    {"day": 5, "month": 5, "title": "Nacimiento de Michael Faraday", "year": 1791, "description": "Michael Faraday, famoso por sus descubrimientos en electromagnetismo y electroquímica, nació el 5 de mayo de 1791.", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/800px-M_Faraday_Th_Phillips_oil_1842.jpg" },
-    {"day": 1, "month": 6, "title": "Lanzamiento del Telescopio Espacial Hubble", "year": 1990, "description": "El Telescopio Espacial Hubble fue lanzado el 1 de junio de 1990, revolucionando la astronomía."},
-    {"day": 20, "month": 7, "title": "Primer alunizaje del Apolo 11", "year": 1969, "description": "El 20 de julio de 1969, Neil Armstrong se convirtió en el primer ser humano en pisar la Luna durante la misión Apolo 11."},
-    {"day": 8, "month": 8, "title": "Nacimiento de Ernest Lawrence", "year": 1901, "description": "Ernest Lawrence, inventor del ciclotrón, nació el 8 de agosto de 1901."},
-    {"day": 28, "month": 9, "title": "Descubrimiento de los rayos X", "year": 1895, "description": "El 28 de septiembre de 1895, Wilhelm Röntgen descubrió los rayos X."},
-    {"day": 23, "month": 10, "title": "Día de Mole", "year": 1811, "description": "El 23 de octubre se celebra el Día de Mole en honor a Avogadro y su número, 6.022 × 10^23."},
-    {"day": 21, "month": 11, "title": "Nacimiento de Henrietta Leavitt", "year": 1868, "description": "Henrietta Leavitt, quien descubrió la relación periodo-luminosidad de las cefeidas, nació el 21 de noviembre de 1868."},
-    {"day": 17, "month": 12, "title": "Primer vuelo de los hermanos Wright", "year": 1903, "description": "El 17 de diciembre de 1903, los hermanos Wright realizaron el primer vuelo controlado y sostenido de una aeronave más pesada que el aire."},
-    {"day": 8, "month": 1, "year": 1942, "title": "Nacimiento de Stephen Hawking", "description": "Stephen Hawking, uno de los físicos teóricos más destacados de la historia, nació el 8 de enero de 1942."},
-    {"day": 7, "month": 11, "year": 1867, "title": "Nacimiento de Marie Curie", "description": "Marie Curie, la primera mujer en ganar un Premio Nobel, nació el 7 de noviembre de 1867."},
-    {"day": 15, "month": 2, "year": 1564, "title": "Nacimiento de Galileo Galilei", "description": "Galileo Galilei, conocido como el padre de la astronomía moderna, nació el 15 de febrero de 1564."},
-    {"day": 19, "month": 2, "year": 1473, "title": "Nacimiento de Nicolás Copérnico", "description": "Nicolás Copérnico, quien formuló el modelo heliocéntrico del universo, nació el 19 de febrero de 1473."},
-    {"day": 27, "month": 12, "year": 1822, "title": "Nacimiento de Louis Pasteur", "description": "Louis Pasteur, conocido por sus descubrimientos en microbiología y química, nació el 27 de diciembre de 1822."},
-    {"day": 6, "month": 8, "year": 1881, "title": "Nacimiento de Alexander Fleming", "description": "Alexander Fleming, quien descubrió la penicilina, nació el 6 de agosto de 1881."},
-    {"day": 10, "month": 7, "year": 1856, "title": "Nacimiento de Nikola Tesla", "description": "Nikola Tesla, conocido por sus contribuciones al diseño del sistema eléctrico de corriente alterna, nació el 10 de julio de 1856."},
-    {"day": 3, "month": 9, "year": 1928, "title": "Descubrimiento de la Penicilina", "description": "Alexander Fleming descubrió la penicilina, dando lugar al desarrollo de los antibióticos y transformando la medicina moderna."},
-    {"day": 26, "month": 9, "year": 1905, "title": "Teoría de la Relatividad", "description": "Albert Einstein cambió nuestra comprensión del tiempo, el espacio y la gravedad con su Teoría de la Relatividad."},
-    {"day": 26, "month": 12, "year": 1898, "title": "Descubrimiento de la Radiactividad", "description": "Marie Curie descubrió la radiactividad, lo que llevó al desarrollo de la radioterapia para el tratamiento del cáncer."},
-    {"day": 24, "month": 11, "year": 1859, "title": "Teoría de la Evolución", "description": "Charles Darwin propuso la teoría de la evolución por selección natural, cambiando nuestra comprensión de la vida en la Tierra."},
-    {"day": 1, "month": 1, "year": 800000, "title": "Descubrimiento del Fuego", "description": "El descubrimiento del fuego por nuestros antepasados fue un hito crucial en la evolución humana."},
-    {"day": 16, "month": 10, "year": 1846, "title": "Invención de la Anestesia", "description": "La invención de la anestesia en el siglo XIX permitió el desarrollo de la cirugía moderna."},
-    {"day": 4, "month": 7, "year": 2012, "title": "Descubrimiento del Bosón de Higgs", "description": "La detección del bosón de Higgs en 2012 confirmó la existencia de este componente fundamental del universo."},
-    {"day": 13, "month": 3, "year": 1788, "title": "Fundación de la Sociedad Linneana de Londres", "description": "La Sociedad Linneana de Londres, dedicada a la historia natural y la taxonomía, fue fundada el 13 de marzo de 1788."},
-    {"day": 12, "month": 5, "year": 1847, "title": "Fundación de la Real Academia de las Ciencias Exactas, Físicas y Naturales", "description": "La Real Academia de las Ciencias Exactas, Físicas y Naturales de España fue fundada el 12 de mayo de 1847."},
-    {"day": 11, "month": 1, "year": 1911, "title": "Fundación de la Sociedad Kaiser Wilhelm", "description": "La Sociedad Kaiser Wilhelm, precursora de la Sociedad Max Planck, fue fundada el 11 de enero de 1911."},
-    {"day": 16, "month": 11, "year": 1945, "title": "Fundación de la UNESCO", "description": "La UNESCO, una agencia especializada de las Naciones Unidas que promueve la paz a través de la educación, la ciencia y la cultura, fue fundada el 16 de noviembre de 1945."},
-    {"day": 28, "month": 11, "year": 1662, "title": "Fundación de la Royal Society", "description": "La Royal Society, la sociedad científica más antigua del Reino Unido, fue fundada el 28 de noviembre de 1662."},
-    {"day": 22, "month": 12, "year": 1666, "title": "Fundación de la Academia de Ciencias de Francia", "description": "La Academia de Ciencias de Francia, una de las instituciones científicas más antiguas del mundo, fue fundada el 22 de diciembre de 1666."},
-    {"day": 7, "month": 4, "year": 1948, "title": "Fundación de la OMS", "description": "La Organización Mundial de la Salud (OMS) fue fundada el 7 de abril de 1948, con el objetivo de mejorar la salud pública a nivel mundial."},
-    {"day": 20, "month": 3, "year": 1916, "title": "Primera publicación de la Teoría General de la Relatividad", "description": "La teoría general de la relatividad de Einstein, publicada el 20 de marzo de 1916, revolucionó la física moderna."},
-    {"day": 6, "month": 6, "year": 1869, "title": "Publicación de la Tabla Periódica de los Elementos", "description": "Dmitri Mendeléyev presentó su tabla periódica de los elementos el 6 de junio de 1869, organizando los elementos químicos de acuerdo a sus propiedades."},
-    {"day": 2, "month": 2, "year": 1971, "title": "Adopción de la Convención de Ramsar", "description": "La Convención de Ramsar para la conservación y el uso racional de los humedales fue adoptada el 2 de febrero de 1971."},
-    {"day": 1, "month": 1, "year": 1961, "title": "Creación del Programa Mundial de Alimentos", "description": "El Programa Mundial de Alimentos (PMA) fue creado en 1961 para combatir el hambre en todo el mundo."}
->>>>>>> main
 ]
