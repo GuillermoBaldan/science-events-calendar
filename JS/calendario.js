@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const calendarElement = document.querySelector('.calendar');
     const daysOfWeek = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
     const monthNames = [
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
         'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
     ];
     const currentMonthElement = document.getElementById('current-month');
@@ -12,7 +12,31 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentYear = new Date().getFullYear();
     let events = [];
 
-    // Cargar efemérides desde el archivo JSON
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    modal.innerHTML = `
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="modal-image" src="" alt="Event Image">
+            <div class="modal-description"></div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const modalImage = modal.querySelector('.modal-image');
+    const modalDescription = modal.querySelector('.modal-description');
+    const closeModalButton = modal.querySelector('.close');
+
+    closeModalButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
     fetch('./Data/data.json')
         .then(response => response.json())
         .then(data => {
@@ -22,13 +46,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error al cargar los eventos:', error));
 
     function updateCalendar() {
-        // Limpiar el calendario
         calendarElement.innerHTML = '';
 
-        // Mostrar el mes actual
         currentMonthElement.textContent = `${monthNames[currentMonth]} ${currentYear}`;
 
-        // Crear encabezados de días de la semana
         daysOfWeek.forEach(day => {
             const dayElement = document.createElement('div');
             dayElement.classList.add('day', 'header');
@@ -36,30 +57,29 @@ document.addEventListener('DOMContentLoaded', () => {
             calendarElement.appendChild(dayElement);
         });
 
-        // Obtener el primer día del mes y el número de días en el mes
         const firstDay = new Date(currentYear, currentMonth, 1).getDay();
         const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
-        // Crear espacios vacíos para los días anteriores al primer día del mes
         for (let i = 0; i < firstDay; i++) {
             const emptyElement = document.createElement('div');
             emptyElement.classList.add('day');
             calendarElement.appendChild(emptyElement);
         }
 
-        // Crear los días del mes
         for (let i = 1; i <= daysInMonth; i++) {
             const dayElement = document.createElement('div');
             dayElement.classList.add('day');
             dayElement.textContent = i;
 
-            // Verificar si hay eventos para este día
             const dayEvents = events.filter(event => event.day === i && event.month === currentMonth + 1);
             if (dayEvents.length > 0) {
                 dayEvents.forEach(event => {
                     const eventElement = document.createElement('div');
                     eventElement.classList.add('event');
                     eventElement.textContent = `${event.title} (${event.year})`;
+                    eventElement.addEventListener('click', () => {
+                        showModal(event);
+                    });
                     dayElement.appendChild(eventElement);
                 });
             }
@@ -68,7 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Manejar navegación entre meses
+    function showModal(event) {
+        modalImage.src = event.imagen || '';
+        modalImage.style.display = event.imagen ? 'block' : 'none';
+        modalDescription.textContent = event.description;
+        modal.style.display = 'block';
+    }
+
     prevMonthButton.addEventListener('click', () => {
         currentMonth--;
         if (currentMonth < 0) {

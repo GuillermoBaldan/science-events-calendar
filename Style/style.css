@@ -1,59 +1,82 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 .calendar-controls {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.calendar-controls button {
-    margin: 0 10px;
-    padding: 5px 10px;
-    font-size: 16px;
-}
-
-.calendar-controls #current-month {
-    font-size: 18px;
-    font-weight: bold;
 }
 
 .calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(auto-fit, minmax(10vw, 1fr));
-    gap: 10px;
-    width: 80vw;
-    max-width: 800px;
+    gap: 5px;
 }
 
-.calendar .day {
-    border: 1px solid #ccc;
+.day {
     padding: 10px;
-    box-sizing: border-box;
+    border: 1px solid #ddd;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-.calendar .day.header {
+.header {
+    background-color: #f4f4f4;
     font-weight: bold;
-    background-color: #f0f0f0;
-    height: 5vh; /* Height for header cells */
 }
 
-.calendar .event {
+.event {
     margin-top: 5px;
-    font-size: 0.8em;
-    background-color: #ffeb3b;
-    padding: 2px 5px;
+    background-color: #e7f3ff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
     border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal-description {
+    font-size: 16px;
+    line-height: 1.5;
 }
